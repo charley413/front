@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  font-family: Baemin;
+}
+
+@font-face {
+  font-family: 'Baemin';
+  src: url(./fonts/Jua-Regular.ttf) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Button{
+  width: 50vw;
+}
+
+.ButtonGroup{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  position: fixed;
+  bottom: 10%;
+  left: 10%;
+
+}
+.DetailOutLine{
+  text-align: left;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  width: 70%;
+  border: 0.5vmin solid lightslategray;
+  border-radius: 10px;
+ 
+}
+.DetailInLine{
+  border: 0.2vmin solid grey;
+}
+
+.DetailCategory{
+  padding-top: 1.5vmin;
+  padding-left: 1.5vmin;
+  font-size: larger;
+}
+.DetailCategory2{
+  
+  padding-left: 1.3vmin;
+  font-size: larger;
+}
+
+.DetailMinutes{
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.DetailButton{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 1vw;
+  
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.temp{
+  height: 20vw;
+}
+
+.ImgCenter{
+  text-align: center;
+}
+.Main{
+  padding-top: 3vw;
+  padding-left: 18vw;
+  padding-right: 18vw;
+  
+}
+
+.Form{
+  padding-top: 3vw;
+  padding-left: 18vw;
+  padding-right: 18vw;
+}
+
+.Jumbotron{
+  background-image: url("jumbotron.png");
+  height: 50vh;
+  background-position: center;
+  background-size: auto;
+
+
+}
+.JumboText{
+  padding-top: 10vmin;
+  font-size: 8vw;
+  
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
